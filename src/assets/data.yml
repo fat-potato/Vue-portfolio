@@ -1,0 +1,61 @@
+/* #*/ export const PERSON = `
+name:
+  first: Khoi
+  middle: Minh
+  last: Nguyen
+about: Hi, my name is Nguyen Minh Khoi. I"m just about the most boring type of person you could
+       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
+       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+position: Software Developer
+
+birth:
+  year: 1995
+  location: Ho Chi Minh
+
+experience:
+- company: FileString Vietnam
+  position: Frontend Developer
+  timeperiod: since January 2016
+  description: Programming and watching cute cat videos.
+
+- company: FPT Software
+  position: Frontend Developer
+  timeperiod: September 2015 - December 2015
+  description: Internship.
+
+education:
+- degree: Master of Arts
+  timeperiod: March 2012 - December 2013
+  description: Major in Hacking and Computer Penetration, University A, New York, USA.
+
+- degree: Bachelor of Science
+  timeperiod: March 2009 - December 2011
+  description: Major in Engineering, University B, Los Angeles, USA.
+
+# skill level goes 0 to 100
+skills:
+- name: ReactJs
+  level: 80
+- name: HTML5
+  level: 99
+- name: CSS3
+  level: 60
+- name: JavaScript
+  level: 70
+- name: Angular 1.5
+  level: 70
+- name: VueJS 2
+  level: 30
+knowledge: Also able to work with Adobe Photoshop and Lightroom, grew up bilingual
+  (English and Vietnamese).
+
+contact:
+  email: minhkhoi28@yahoo.com
+  phone: (+84) 1224222228
+  street: 1234 Broadway
+  city: HCM city
+  website: www.barneynguyen.blog
+  github: something
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+lang: en
+`
