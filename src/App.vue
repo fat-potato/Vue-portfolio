@@ -6,7 +6,7 @@
 
 <script>
 require('material-design-icons/iconfont/material-icons.css')
-require ('font-awesome/css/font-awesome.css')
+require('font-awesome/css/font-awesome.css')
 export default {
   name: 'app'
 }
