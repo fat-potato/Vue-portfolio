@@ -1,0 +1,165 @@
+.leftCol {
+  width: 445px;
+  flex: 1;
+  height: 100%;
+  padding: 0;
+  text-align: left;
+  color:rgba(255,255,255,0.59);
+  background-color:#16151c;
+  overflow: hidden;
+  display: block;
+
+  .description-personal {
+    margin-left:20px;
+    margin-top:20px;
+    padding-right:40px;
+    text-align:justify;
+    font-family:Roboto;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 80px;
+
+    h2 {
+      text-transform: uppercase;
+      font-size: 30pt;
+      color: #fff;
+      letter-spacing: 10px;
+      font-weight: bold;
+    }
+    div {
+      font-weight: bold;
+      letter-spacing: 3px;
+      color: #fff;
+      font-size: 12pt;
+      margin-top: 30px;
+      text-transform:uppercase;
+      opacity:0.8;
+    }
+  }
+
+  .section-headline {
+    font-size: 12pt;
+    text-align: center;
+    color:rgba(255,255,255,0.54);
+  }
+
+  .fa, .material-icons {
+    display:inline-block;
+    font-style:normal;
+    font-weight:normal;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    font-size:26px;
+  }
+  a {
+    color:rgba(255,255,255,0.59);
+    text-decoration: none;
+  }
+  .heading {
+    margin: 100px auto 70px auto;
+    width: 235px;
+    height: 235px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .item {
+    display: flex;
+    width: 100%;
+    margin-top: 13px;
+    align-items: center;
+
+    &.last {
+      flex-direction: column;
+    }
+
+    .fa, .material-icons {
+      display: inherit;
+      text-align: center;
+    }
+
+    .icon {
+      color: #64bbb7;
+      width: 20%;
+    }
+
+    .text {
+      font-size: 15px;
+      font-weight: 300;
+
+      li {
+        padding-top: 0;
+        display: block;
+        font-size: 15px;
+        font-weight: 300;
+      }
+    }
+
+    span {
+      font-weight: 300;
+    }
+
+    .skill {
+      clear: both;
+      width: 97%;
+      padding-top: 4px;
+      display: flex;
+      flex-direction: row-reverse;
+
+      &:last-child {
+        margin-bottom: 20px;
+      }
+
+      .right {
+        width:93%;
+
+        .progress {
+          float: left;
+          position: relative;
+          height: 2px;
+          display: block;
+          width: 95%;
+          background-color:rgba(255,255,255,0.19);
+          border-radius: 2px;
+          margin: 0.5rem 0 1rem;
+          overflow: visible;
+          margin-bottom: 10px;
+
+          .determinate {
+            background-color: #f3775b;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+
+            .fa, .material-icons {
+              font-size: 13px;
+              position: absolute;
+              top: -5px;
+              right: -2px;
+              margin-left: 50%;
+              color:white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .item.last .text {
+    border-bottom-style:none;
+    padding-bottom:0;
+  }
+}
+
+#myselfpic {
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+#githubIcon {
+  width:25px;
+  padding-left:17px;
+}

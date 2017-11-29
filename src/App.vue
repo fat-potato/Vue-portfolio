@@ -25,4 +25,66 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+
+a {
+  cursor:pointer;
+}
+
+li {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  padding-top:9px;
+}
+
+ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+p {
+  margin-top:0;
+  margin-bottom:25px;
+  font-family:'Roboto', sans-serif;
+  font-weight:300;
+  font-size:10pt;
+  line-height:17pt;
+}
+
+  h1, h3, h5, h6 {
+    font-weight:400;
+    margin:0;
+  }
+  h2 {
+    font-weight:400;
+    font-weight:500;
+    margin:0;
+    margin:0;
+    font-size:22pt;
+    line-height:37pt;
+  }
+  h4 {
+    font-weight:400;
+    margin:0;
+    font-size:12pt;
+    line-height:20pt;
+    opacity:1;
+  }
+
+.section-headline {
+  text-transform:uppercase;
+  font-weight:500;
+  letter-spacing:3px;
+  font-size:10pt;
+  opacity:0.8;
+  margin-top:40px;
+  margin-bottom:20px;
+  color:#3f3d3c;
+}
+
+.m_box {
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
 </style>
