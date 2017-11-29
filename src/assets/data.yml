@@ -1,12 +1,12 @@
 /* #*/ export const PERSON = `
 name:
-  first: Khoi
-  middle: Minh
+  first: Barney
+  middle:
   last: Nguyen
 about: Hi, my name is Nguyen Minh Khoi. I"m just about the most boring type of person you could
        possibly imagine. I like collecting leaves from the tree in my back yard and documenting
        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+position: Frontend Developer
 
 birth:
   year: 1995
@@ -24,13 +24,13 @@ experience:
   description: Internship.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
+- degree: Master of IT (Professional Computing)
+  timeperiod: Feb 2018 - March 2020
+  description: Major in Mobile and Cloud Computing, Swinburne University, Melbourne, AUS.
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor of Software Engineering
+  timeperiod: Oct 2013 - August 2017
+  description: Major in Software Engineering, FPT University, HCM, VN.
 
 # skill level goes 0 to 100
 skills:
@@ -54,8 +54,8 @@ contact:
   phone: (+84) 1224222228
   street: 1234 Broadway
   city: HCM city
-  website: www.barneynguyen.blog
-  github: something
+  website: barneynguyen.blog
+  github: fat-potato
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `

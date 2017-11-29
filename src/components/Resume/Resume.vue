@@ -2,7 +2,12 @@
 <div class="resume">
   <div class="leftCol m_box">
     <div class="shadow"></div>
-    <div class="heading" id="myselfpic">
+    <div class="heading">
+      <img src="../../assets/id2.jpg" id="myselfpic" />
+    </div>
+    <div class="title">
+      <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
+      <div>{{person.position}}</div>
     </div>
     <div class="section-headline">
       Contact
@@ -64,7 +69,7 @@
       </div>
     </a>
 
-    <a v-if="person.contact.website" :href="person.contact.website" target="_blank">
+    <a v-if="person.contact.website" :href="'http://'+person.contact.website" target="_blank">
       <div class="item">
         <div class="icon">
           <i class="material-icons">language</i>
@@ -93,11 +98,6 @@
   </div>
 
   <div class="rightCol">
-    <div class="title">
-      <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
-      <div>{{person.position}}</div>
-    </div>
-
     <div class="section-headline">Experience</div>
     <div class="block" v-for="experience in person.experience" :key="experience.company">
       <div class="block-helper"></div>
