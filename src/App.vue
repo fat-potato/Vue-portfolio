@@ -1,14 +1,21 @@
 <template>
   <div id="app">
     <router-view/>
+    <CircleBtn />
   </div>
 </template>
 
 <script>
+import CircleBtn from '@/components/CircleBtn/Circle'
+
 require('material-design-icons/iconfont/material-icons.css')
 require('font-awesome/css/font-awesome.css')
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    CircleBtn
+  }
 }
 </script>
 
@@ -84,7 +91,7 @@ p {
 }
 
 .m_box {
-  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow:0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
 }
 
 </style>

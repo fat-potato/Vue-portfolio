@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <div class="item">
+    <!-- <div class="item">
       <div class="icon">
         <i class="material-icons">location_city</i>
       </div>
@@ -31,7 +31,18 @@
           <li>{{person.contact.city}}</li>
         </ul>
       </div>
-    </div>
+    </div> -->
+
+    <a v-if="person.contact.linkedin" :href="'https://linkedin.com/in/'+person.contact.linkedin" target="_blank">
+      <div class="item">
+        <div class="icon">
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <div class="text">
+          <span>{{person.contact.linkedin}}</span>
+        </div>
+      </div>
+    </a>
 
     <a :href="'tel:'+person.contact.phone">
       <div class="item">
@@ -62,7 +73,6 @@
         </div>
         <div class="text">
           <span>@{{person.contact.github}}</span>
-          <span>github.com/{{person.contact.github}}</span>
         </div>
       </div>
     </a>
