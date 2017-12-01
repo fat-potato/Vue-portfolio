@@ -1,7 +1,7 @@
 <template>
-  <a :href="url" id="contact-button" target="_blank" class="m_box">
+  <router-link class="m_box" id="contact-button" :to="url">
     <i class="material-icons mail">mail</i>
-  </a>
+  </router-link>
 </template>
 
 <script>

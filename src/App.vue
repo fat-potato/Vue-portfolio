@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view/>
-    <CircleBtn />
+    <CircleBtn url="contact"/>
   </div>
 </template>
 
@@ -17,11 +17,29 @@ export default {
     CircleBtn
   }
 }
+
+if (typeof console === 'object') {
+  console.log(
+    '\n' +
+    'Hi there, fellow developers! Thanks for visiting.\n' +
+    'If you’re startup-er,\n' +
+    'or business owner, or your company have an             ("`-’-/").___..--’’"`-._\n' +
+    'available position. I am available for                  `6_ 6  )   `-.  (     ).`-.__.‘)\n' +
+    'new challenges!                                          (_Y_.)’  ._   )  `._ `. ``-..-’\n' +
+'                                                           _..`--’_..-_/  /--’_.’ ,’\n' +
+    '                                                      (il),-’‘  (li),’  ((!.-‘\n' +
+    'I’m looking forward to hearing from you all!\n' +
+    '\n' +
+    '— @barney\n'
+  )
+}
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family:'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -53,7 +71,6 @@ ul {
 p {
   margin-top:0;
   margin-bottom:25px;
-  font-family:'Roboto', sans-serif;
   font-weight:300;
   font-size:10pt;
   line-height:17pt;
