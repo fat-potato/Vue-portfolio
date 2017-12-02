@@ -1,12 +1,14 @@
 <template>
   <div id="app">
     <router-view/>
+    <Footer />
     <CircleBtn url="contact"/>
   </div>
 </template>
 
 <script>
 import CircleBtn from '@/components/CircleBtn/Circle'
+import Footer from '@/components/Footer/Footer'
 
 require('material-design-icons/iconfont/material-icons.css')
 require('font-awesome/css/font-awesome.css')
@@ -14,7 +16,8 @@ require('font-awesome/css/font-awesome.css')
 export default {
   name: 'app',
   components: {
-    CircleBtn
+    CircleBtn,
+    Footer
   }
 }
 
@@ -36,7 +39,8 @@ if (typeof console === 'object') {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
 
 #app {
   font-family:'Roboto', sans-serif;

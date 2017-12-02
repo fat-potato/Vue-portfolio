@@ -4,7 +4,7 @@
   </header>
 </template>
 
-<<script>
+<script>
 export default {
   name: 'Header'
 }
@@ -13,6 +13,8 @@ export default {
 <style lang="scss" scoped>
 
 header {
+  position: absolute;
+  top: 0;
   display: flex;
   box-sizing: border-box;
   width: 100%;
@@ -29,7 +31,7 @@ header {
   height: 50px;
   width: 50px;
   margin: 7px auto;
-  background: url(assets/id2.jpg) 50% no-repeat;
+  background: url(../../assets/id2.jpg) 50% no-repeat;
   background-size: cover;
 }
 

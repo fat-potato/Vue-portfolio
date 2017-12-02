@@ -132,6 +132,7 @@
             position: absolute;
             top: 0;
             bottom: 0;
+            transition: width 1s ease;
 
             .fa, .material-icons {
               font-size: 13px;
