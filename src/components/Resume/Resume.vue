@@ -25,11 +25,26 @@
     <div class="block">
       <div class="block-helper"></div>
       <ul class="interests">
-        <li><i class="fa fa-camera-retro"></i></li>
-        <li><i class="fa fa-cutlery"></i></li>
-        <li><i class="fa fa-headphones"></i></li>
-        <li><i class="fa fa-comments"></i></li>
-        <li><i class="fa fa-coffee"></i></li>
+        <li class="tooltip">
+          <i class="fa fa-film"></i>
+          <span class="tooltiptext">Movie</span>
+        </li>
+        <li class="tooltip">
+          <i class="fa fa-camera-retro"></i>
+          <span class="tooltiptext">Photography</span>
+        </li>
+        <li class="tooltip">
+          <i class="fa fa-cutlery"></i>
+          <span class="tooltiptext">Food</span>
+        </li>
+        <li class="tooltip">
+          <i class="fa fa-code"></i>
+          <span class="tooltiptext">Coding</span>
+        </li>
+        <li class="tooltip">
+          <i class="fa fa-headphones"></i>
+          <span class="tooltiptext">Music</span>
+        </li class="tooltip">
       </ul>
     </div>
   </div>

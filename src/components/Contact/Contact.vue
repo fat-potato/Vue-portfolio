@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Header/>
+    <KHeader/>
     <form v-on:submit.prevent="sendMail">
       <div class="title">
         <h1>Contact me</h1>
@@ -20,14 +20,14 @@
 <script>
 import materialInput from '@/components/Input/Input'
 import mTextArea from '@/components/Input/TextArea'
-import Header from '@/components/Header/Header'
+import KHeader from '@/components/Header/Header'
 import axios from 'axios'
 export default {
   name: 'Contact',
   components: {
     materialInput,
     mTextArea,
-    Header
+    KHeader
   },
   data () {
     return {

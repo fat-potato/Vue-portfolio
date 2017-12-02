@@ -1,14 +1,14 @@
 <template>
   <div id="app">
     <router-view/>
-    <Footer />
+    <KFooter />
     <CircleBtn url="contact"/>
   </div>
 </template>
 
 <script>
 import CircleBtn from '@/components/CircleBtn/Circle'
-import Footer from '@/components/Footer/Footer'
+import KFooter from '@/components/Footer/Footer'
 
 require('material-design-icons/iconfont/material-icons.css')
 require('font-awesome/css/font-awesome.css')
@@ -17,7 +17,7 @@ export default {
   name: 'app',
   components: {
     CircleBtn,
-    Footer
+    KFooter
   }
 }
 

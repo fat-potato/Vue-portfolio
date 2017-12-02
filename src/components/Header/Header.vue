@@ -1,6 +1,6 @@
 <template>
   <header class="m_box">
-    <div class="site-logo"></div>
+    <router-link class="site-logo" to="/"></router-link>
   </header>
 </template>
 
@@ -31,7 +31,7 @@ header {
   height: 50px;
   width: 50px;
   margin: 7px auto;
-  background: url(../../assets/id2.jpg) 50% no-repeat;
+  background: url(../../assets/K.png);
   background-size: cover;
 }
 
