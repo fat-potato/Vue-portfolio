@@ -16,12 +16,11 @@ experience:
 - company: FileString Vietnam
   position: Frontend Developer
   timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-
+  description: I came to the company as a Frontend intern and worked myself up to become an offical employee. I developed Single Page Web Applications using AngularJS in the first year then moved on to ReactJS after. Now I am a full-time React developer.
 - company: FPT Software
   position: Frontend Developer
   timeperiod: September 2015 - December 2015
-  description: Internship.
+  description: Internship placement by FPT University. FPT Software is one of the largest software company in Vietnam. I got to work with IT professionals and learn hands-on experience in real software development. My main responsibilities were software testing. I also taught myself frontend development during my free time for a change of taste.
 
 education:
 - degree: Master of IT (Professional Computing)
