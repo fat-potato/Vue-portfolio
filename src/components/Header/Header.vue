@@ -23,7 +23,7 @@ header {
   border: none;
   min-height: 64px;
   z-index: 3;
-  background-color: rgb(63,81,181);
+  background-color: #2c3e50;
   color: rgb(255,255,255);
 }
 

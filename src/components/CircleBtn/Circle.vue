@@ -24,7 +24,7 @@ export default {
   margin-right: 40px;
   margin-bottom: 40px;
   z-index: 900;
-  background-color: rgb(255,64,129);
+  background-color: #d14836;
   border-radius: 50%;
   font-size: 24px;
   height: 56px;

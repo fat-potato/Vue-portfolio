@@ -92,3 +92,10 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .resume {
+    display: block;
+    padding: 0;
+  }
+}

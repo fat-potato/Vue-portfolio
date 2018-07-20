@@ -3,29 +3,29 @@ name:
   first: Barney
   middle:
   last: Nguyen
-about: Hi, my name is Nguyen Minh Khoi. I"m just about the most boring type of person you could
+about: Hi, my name is Khoi. I"m just about the most boring type of person you could
        possibly imagine. I like collecting leaves from the tree in my back yard and documenting
        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
 position: Frontend Developer
 
 birth:
   year: 1995
-  location: Ho Chi Minh
+  location: HCM city
 
 experience:
 - company: FileString Vietnam
   position: Frontend Developer
-  timeperiod: since January 2016
-  description: I came to the company as a Frontend intern and worked myself up to become an offical employee. I developed Single Page Web Applications using AngularJS in the first year then moved on to ReactJS after. Now I am a full-time React developer.
+  timeperiod: January 2016 - Present
+  description: Responsibilities was developing web application using modern technologies like ReactJs and AngularJs.
 - company: FPT Software
   position: Frontend Developer
   timeperiod: September 2015 - December 2015
-  description: Internship placement by FPT University. FPT Software is one of the largest software company in Vietnam. I got to work with IT professionals and learn hands-on experience in real software development. My main responsibilities were software testing. I also taught myself frontend development during my free time for a change of taste.
+  description: FPT Software is one of the largest software company in Vietnam. Main responsibilities was software testing.
 
 education:
-- degree: Master of IT (Professional Computing)
+- degree: Master of Information Technology (Professional Computing)
   timeperiod: Feb 2018 - March 2020
-  description: Major in Mobile and Cloud Computing, Swinburne University, Melbourne, AUS.
+  description: Major in Software Development, Swinburne University, Melbourne, AUS.
 
 - degree: Bachelor of Software Engineering
   timeperiod: Oct 2013 - August 2017
@@ -51,10 +51,10 @@ knowledge: Also able to work with Adobe Photoshop and Lightroom, grew up bilingu
 contact:
   email: minhkhoi28@yahoo.com
   linkedin: barneynguyen
-  phone: (+84) 1224222228
-  street: 1234 Broadway
-  city: HCM city
-  website: travelsofbarney.blogspot.com
+  phone: (+61) 0478112223
+  street: 8/27 Morang rd, Hawthorn
+  city: Melbourne
+  # website: travelsofbarney.blogspot.com
   github: fat-potato
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
